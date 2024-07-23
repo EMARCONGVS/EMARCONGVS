@@ -5,7 +5,7 @@ Dim swApp As SldWorks.SldWorks
 Const PRINTER_NAME As String = "GVS Engineering Printer on gvs102s"
 Const PRINT_RANGE As String = "1-8"
 Const PRINT_ORIENTATION As Integer = swPageSetupOrientation_e.swPageSetupOrient_Landscape
-Const PRINTER_PAPER_SIZE As String = "A3"
+Const PRINTER_PAPER_SIZE As String = "TABLOID"
 Const PRINT_SCALE As String = "*"
 
 Sub main()
